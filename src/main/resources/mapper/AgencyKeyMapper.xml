@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.xulala.SSMTemplate.dao.AgencyKeyMapper" >
-    <resultMap id="BaseResultMap" type="com.xulala.SSMTemplate.entity.AgencyKey" >
+    <!--<resultMap id="BaseResultMap" type="com.xulala.SSMTemplate.entity.AgencyKey" >
         <id column="ID" property="id" jdbcType="INTEGER" />
         <result column="AGENCY_NO" property="agencyNo" jdbcType="VARCHAR" />
         <result column="MD5_KEY" property="md5Key" jdbcType="VARCHAR" />
         <result column="DES_KEY" property="desKey" jdbcType="VARCHAR" />
         <result column="REMARK" property="remark" jdbcType="VARCHAR" />
-    </resultMap>
+    </resultMap>-->
     <sql id="Base_Column_List" >
         ID,AGENCY_NO, MD5_KEY, DES_KEY, REMARK
     </sql>
